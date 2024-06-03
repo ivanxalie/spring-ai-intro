@@ -12,7 +12,10 @@ class OpenAIServiceImplTest {
 
     @Test
     void getAnswer() {
-        String question = "Tell me a dad joke.";
+        String question = """
+                It takes one person 5 hours to dig a 10 foot hole in the ground.
+                How long would it take 5 people?
+                """;
         System.out.println("Get the answer...");
         System.out.println(service.getAnswer(question));
     }

@@ -87,7 +87,7 @@ John and Mark are in the room with a ball, a basket and a box. John puts the bal
 Most models will answer this correctly.
 
 ## Prompt 13
-Give me 10 sentances that end in the word Apple
+Give me 10 sentences that end in the word Apple
 
 Given most LLM Models use forward prediction, this is a difficult task for them. They will normally fail this test.
 Claud 3 and GPT 4 will fail this test - but 9 out 10 were correct.
